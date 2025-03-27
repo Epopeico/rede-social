@@ -1,0 +1,68 @@
+@charset "UTF-8"; /* Define o charset (codificação de caracteres) como UTF-8 */
+
+
+/* Reset básico - remove margens e paddings padrão de todos os elementos */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos para os elementos html e body */
+html, body {
+    /* Faz com que ocupem 100% da altura e largura da viewport */
+    height: 100vh;
+    width: 100vw;
+     /* Cor de fundo preta */   
+}
+
+body {
+    background: linear-gradient(150deg, #0A66C2, #833AB4);     
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+
+section#phone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 627px;
+    background: url('../image/frame-phone.png');
+}
+
+iframe#tela {
+    position: relative;
+    top: 61px;
+    left: 186px;
+    width: 266px;
+    height: 471px;
+    border-radius: 6px 6px 10px 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.09);
+}
+
+section#social-media {
+    text-align: right;
+}
+
+section#social-media img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.645);
+    box-sizing: border-box;
+}
+
+section#social-media img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.63);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.633);
+    transition: transform .3s, border 1s;
+}
+
+
+
