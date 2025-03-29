@@ -31,17 +31,17 @@ section#phone {
     left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
-    width: 627px;
-    background: url('../image/frame-phone.png');
+    width: 311px;
+    background: url('../image/frame-phone.png') no-repeat;
 }
 
 iframe#tela {
     position: relative;
-    top: 61px;
-    left: 186px;
+    top: 60px;
+    left: 22px;
     width: 266px;
-    height: 471px;
-    border-radius: 6px 6px 10px 10px;
+    height: 513px;
+    border-radius: 7px 6px 10px 4px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.09);
 }
 
